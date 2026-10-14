@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://plattyssh.github.io/docs/
+    about: Installing Platty, keys, the vault, SFTP, tunnels and shortcuts.
+  - name: Report a security issue
+    url: https://github.com/PlattySSH/platty/security/advisories/new
+    about: Please report vulnerabilities privately, not in a public issue.

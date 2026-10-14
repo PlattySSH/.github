@@ -1,0 +1,67 @@
+name: Bug report
+description: Something in Platty doesn't work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please search the [existing issues](https://github.com/PlattySSH/platty/issues) first.
+        Never paste passwords, private keys or server addresses you want to keep private.
+  - type: input
+    id: version
+    attributes:
+      label: Platty version
+      description: Shown in Settings → About.
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Run `winver` to see it.
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Terminal
+        - SSH connection
+        - SFTP
+        - Port forwarding
+        - Keychain and vault
+        - Hosts and settings
+        - Installer
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you see? Screenshots help a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a session to ...
+        2. Run ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash log or server details
+      description: If Platty crashed, attach the crash log from `%AppData%\Platty`. For connection problems, the server's OS and SSH server (for example OpenSSH 9.6 on Ubuntu 24.04) are useful.
+      render: text
