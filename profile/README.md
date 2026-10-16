@@ -22,8 +22,8 @@ The app: hosts, terminal, SFTP, tunnels and keys in one window.
 <img src="go.svg" height="14" alt="Go" /> [`vt`](https://github.com/PlattySSH/vt)\
 A VT terminal emulator for Go with no GUI attached.
 
-<img src="go.svg" height="14" alt="Go" /> [`conpty`](https://github.com/PlattySSH/conpty)\
-Start processes in a Windows pseudo console.
+<img src="go.svg" height="14" alt="Go" /> [`pty`](https://github.com/PlattySSH/pty)\
+Start processes in a pseudo terminal on Windows, Linux and macOS.
 
 <img src="go.svg" height="14" alt="Go" /> [`glyphs`](https://github.com/PlattySSH/glyphs)\
 A glyph rasterizer with color emoji, font fallback and ligatures.

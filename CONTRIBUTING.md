@@ -10,7 +10,7 @@ Thanks for helping out. Bug reports, ideas, docs fixes and code are all welcome.
 
 ## Where the code lives
 
-Everything is developed in [PlattySSH/platty](https://github.com/PlattySSH/platty). The libraries [vt](https://github.com/PlattySSH/vt), [conpty](https://github.com/PlattySSH/conpty) and [glyphs](https://github.com/PlattySSH/glyphs) are published from its `libs/` folder, so send pull requests for them to the `platty` repository too. The website and docs live in [plattyssh.github.io](https://github.com/PlattySSH/plattyssh.github.io).
+Everything is developed in [PlattySSH/platty](https://github.com/PlattySSH/platty). The libraries [vt](https://github.com/PlattySSH/vt), [pty](https://github.com/PlattySSH/pty) and [glyphs](https://github.com/PlattySSH/glyphs) are published from its `libs/` folder, so send pull requests for them to the `platty` repository too. The website and docs live in [plattyssh.github.io](https://github.com/PlattySSH/plattyssh.github.io).
 
 ## Building
 
