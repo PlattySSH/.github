@@ -1,6 +1,6 @@
 # Code of conduct
 
-Platty is a small project. Be kind and help keep it a good place to be.
+Northlight is a small team. Be kind and help keep it a good place to be.
 
 ## What we expect
 
@@ -18,6 +18,6 @@ Platty is a small project. Be kind and help keep it a good place to be.
 
 ## Enforcement
 
-Maintainers can edit or remove comments, issues and pull requests that break these rules, and block people who keep breaking them. To report something sensitive, use a [private advisory](https://github.com/PlattySSH/platty/security/advisories/new) so only the maintainers see it.
+Maintainers can edit or remove comments, issues and pull requests that break these rules, and block people who keep breaking them. To report something sensitive, use a [private advisory](https://github.com/northlighthq/boreal/security/advisories/new) so only the maintainers see it.
 
-This applies to every repository in the PlattySSH organization and to any space where you represent the project.
+This applies to every repository in the Northlight organization and to any space where you represent the project.

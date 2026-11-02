@@ -1,35 +1,35 @@
-# Contributing to Platty
+# Contributing to Boreal
 
 Thanks for helping out. Bug reports, ideas, docs fixes and code are all welcome.
 
 ## Before you start
 
-- **Bugs and ideas** go in [issues](https://github.com/PlattySSH/platty/issues/new/choose). Search first; a 👍 on an existing issue helps us prioritize.
+- **Bugs and ideas** go in [issues](https://github.com/northlighthq/boreal/issues/new/choose). Search first; a 👍 on an existing issue helps us prioritize.
 - **Security issues** must be reported privately. See [SECURITY.md](SECURITY.md).
 - **Bigger changes**: open an issue to talk about it before writing the code, so your time isn't spent on something that won't fit.
 
 ## Where the code lives
 
-Everything is developed in [PlattySSH/platty](https://github.com/PlattySSH/platty). The libraries [vt](https://github.com/PlattySSH/vt), [pty](https://github.com/PlattySSH/pty) and [glyphs](https://github.com/PlattySSH/glyphs) are published from its `libs/` folder, so send pull requests for them to the `platty` repository too. The website and docs live in [plattyssh.github.io](https://github.com/PlattySSH/plattyssh.github.io).
+Everything is developed in [northlighthq/boreal](https://github.com/northlighthq/boreal). The libraries [vt](https://github.com/northlighthq/vt), [pty](https://github.com/northlighthq/pty) and [glyphs](https://github.com/northlighthq/glyphs) are published from its `libs/` folder, so send pull requests for them to the `boreal` repository too. The website and docs live in [plattyssh.github.io](https://github.com/northlighthq/plattyssh.github.io).
 
 ## Building
 
 You need Windows and Go 1.26 or later.
 
 ```sh
-git clone https://github.com/PlattySSH/platty
-cd platty
-go build -ldflags "-H windowsgui" -o bin/platty.exe ./cmd/platty
+git clone https://github.com/northlighthq/boreal
+cd boreal
+go build -ldflags "-H windowsgui" -o bin/boreal.exe ./cmd/boreal
 ```
 
 Before opening a pull request, make sure these pass:
 
 ```sh
 go vet ./...
-go build ./cmd/platty
+go build ./cmd/boreal
 ```
 
-For UI changes, `go run ./cmd/platty-preview -o shots` renders every screen to PNG without opening a window. Add a before and after screenshot to the pull request.
+For UI changes, add a before and after screenshot to the pull request.
 
 ## Code style
 
@@ -55,4 +55,4 @@ Everything in the repository is in English: UI strings, docs, commit messages an
 
 ## License
 
-By contributing, you agree that your work is released under the [MIT License](https://github.com/PlattySSH/platty/blob/main/LICENSE).
+By contributing, you agree that your work is released under the [MIT License](https://github.com/northlighthq/boreal/blob/main/LICENSE).
