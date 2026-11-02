@@ -6,6 +6,6 @@
 
 <!-- The screens and cases you tried. For UI changes, add a before and after screenshot. -->
 
-- [ ] `go vet ./...` and `go build ./cmd/platty` pass
-- [ ] The code follows the style in [CONTRIBUTING.md](https://github.com/PlattySSH/.github/blob/main/CONTRIBUTING.md)
+- [ ] `go vet ./...` and `go build ./cmd/boreal` pass
+- [ ] The code follows the style in [CONTRIBUTING.md](https://github.com/northlighthq/.github/blob/main/CONTRIBUTING.md)
 - [ ] User-facing text is in English

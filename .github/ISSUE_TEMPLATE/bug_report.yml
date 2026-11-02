@@ -1,16 +1,16 @@
 name: Bug report
-description: Something in Platty doesn't work as it should.
+description: Something in Boreal doesn't work as it should.
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report this. Please search the [existing issues](https://github.com/PlattySSH/platty/issues) first.
+        Thanks for taking the time to report this. Please search the [existing issues](https://github.com/northlighthq/boreal/issues) first.
         Never paste passwords, private keys or server addresses you want to keep private.
   - type: input
     id: version
     attributes:
-      label: Platty version
+      label: Boreal version
       description: Shown in Settings → About.
       placeholder: 0.1.0
     validations:
@@ -63,5 +63,5 @@ body:
     id: logs
     attributes:
       label: Crash log or server details
-      description: If Platty crashed, attach the crash log from `%AppData%\Platty`. For connection problems, the server's OS and SSH server (for example OpenSSH 9.6 on Ubuntu 24.04) are useful.
+      description: If Boreal crashed, attach the crash log from `%AppData%\Boreal`. For connection problems, the server's OS and SSH server (for example OpenSSH 9.6 on Ubuntu 24.04) are useful.
       render: text
